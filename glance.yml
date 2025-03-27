@@ -1,0 +1,14 @@
+server:
+  port: 80
+  assets-path: /opt/glance/assets
+branding:
+  logo-url: /assets/icon.png
+  favicon-url: /assets/icon.png
+pages:
+  !include: home.yml
+  !include: more.yml
+theme:
+  background-color: 225 14 15
+  primary-color: 157 47 65
+  contrast-multiplier: 1.1
+  custom-css-file: /assets/my-style.css
