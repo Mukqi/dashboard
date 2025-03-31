@@ -2,70 +2,71 @@
   # Optionally, if you only have a single page you can hide the desktop navigation for a cleaner look
   # hide-desktop-navigation: true
   columns:
-    - size: small
-      widgets:
-        - type: search
-          title: CVE Search
-          search-engine: https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword={QUERY}
-        - type: rss
-          title: Latest High/Crit CVE's
-          feeds:
-            - url: https://cvefeed.io/rssfeed/severity/high.xml
-              title: CVEFeed.io recent high/criticals
-              collapse-after: 8
-    - size: full
-      widgets:
-        - type: rss
-#         style: horizontal-cards
-#         limit: 10
-          title: Infosec News
-          collapse-after: 10
-          cache: 12h
-#          style: detailed-list
-          feeds:
-            - url: https://0dayfans.com/feed.rss
-              title: 0dayfans
-              limit: 4
-            - url: https://podcast.darknetdiaries.com/
-              title: Darknet Diaries
-              limit: 4
-            - url: https://grahamcluley.com/feed/
-              title: Graham Cluley
-              limit: 4
-            - url: https://krebsonsecurity.com/feed/
-              title: Krebs on Security
-              limit: 4
-#            - url: https://isc.sans.edu/rssfeed_full.xml
-#              title: SANS Internet Storm Center
-#              limit: 4
-            - url: https://www.schneier.com/feed/atom/
-              title: Schneier on Security
-              limit: 4
-            - url: https://securelist.com/feed/
-              title: Securelist
-              limit: 4
-            - url: https://news.sophos.com/en-us/category/security-operations/feed/
-              title: Security Operations – Sophos News
-              limit: 4
-            - url: https://feeds.feedburner.com/TheHackersNews?format=xml
-              title: The Hacker News
-              limit: 4
-            - url: https://news.sophos.com/en-us/category/threat-research/feed/
-              title: Threat Research – Sophos News
-              limit: 4
-            - url: https://www.troyhunt.com/rss/
-              title: Troy Hunt
-              limit: 4
-            - url: https://feeds.feedburner.com/eset/blog
-              title: WeLiveSecurity
-              limit: 4
-    - size: small
-      widgets:
-        - type: calendar
-          first-day-of-week: sunday
-        - type: rss
-          title: Latest Breaches
-          feeds:
-            - url: http://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches
-              title: HaveIBeenPwned Lateset Breaches
-              limit: 8
+      - size: small
+        widgets:
+            - type: search
+              title: CVE Search
+              search-engine: https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword={QUERY}
+            - type: rss
+              title: Latest High/Crit CVE's
+              feeds:
+                  - url: https://cvefeed.io/rssfeed/severity/high.xml
+                    title: CVEFeed.io recent high/criticals
+                    collapse-after: 16
+      - size: full
+        widgets:
+            - type: rss
+              title: Infosec News
+              collapse-after: 10
+              cache: 12h
+              style: detailed-list
+              feeds:
+                  - url: https://portswigger.net/research/rss
+                    title: PortSwigger Research
+                    limit: 4
+                  - url: https://0dayfans.com/feed.rss
+                    title: 0dayfans
+                    limit: 4
+                  - url: https://grahamcluley.com/feed/
+                    title: Graham Cluley
+                    limit: 4
+                  - url: https://krebsonsecurity.com/feed/
+                    title: Krebs on Security
+                    limit: 4
+                  - url: https://isc.sans.edu/rssfeed_full.xml
+                    title: SANS Internet Storm Center
+                    limit: 4
+                  - url: https://www.schneier.com/feed/atom/
+                    title: Schneier on Security
+                    limit: 4
+                  - url: https://securelist.com/feed/
+                    title: Securelist
+                    limit: 4
+                  - url: https://news.sophos.com/en-us/category/security-operations/feed/
+                    title: Security Operations – Sophos News
+                    limit: 4
+                  - url: https://feeds.feedburner.com/TheHackersNews?format=xml
+                    title: The Hacker News
+                    limit: 4
+                  - url: https://www.troyhunt.com/rss/
+                    title: Troy Hunt
+                    limit: 4
+                  - url: https://feeds.feedburner.com/eset/blog
+                    title: WeLiveSecurity
+                    limit: 4
+      - size: small
+        widgets:
+            # - type: calendar
+            #   first-day-of-week: sunday
+            - type: rss
+              title: Latest Breaches
+              feeds:
+                  - url: http://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches
+                    title: HaveIBeenPwned Lateset Breaches
+                    limit: 8
+            - type: rss
+              title: Podcast Updates
+              feeds:
+                  - url: https://podcast.darknetdiaries.com/
+                    title: Darknet Diaries
+                    limit: 4
