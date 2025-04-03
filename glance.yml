@@ -6,9 +6,10 @@ branding:
   favicon-url: /assets/icon.png
 pages:
   !include: home.yml
+  !include: news.yml
   !include: more.yml
 theme:
   background-color: 225 14 15
   primary-color: 157 47 65
   contrast-multiplier: 1.1
-  custom-css-file: /assets/my-style.css
+  custom-css-file: /assets/custom.css
