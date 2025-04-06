@@ -15,7 +15,7 @@
                     url: https://book.hacktricks.wiki/en/index.html?search={QUERY}
                   - title: Pentest Book
                     shortcut: "!ptb"
-                    url: https://pentestbook.six2dez.com/q={QUERY}
+                    url: https://pentestbook.six2dez.com?q={QUERY}
                   - title: Brave
                     shortcut: "!brave"
                     url: https://search.brave.com/search?q={QUERY}
