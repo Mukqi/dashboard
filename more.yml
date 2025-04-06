@@ -29,20 +29,20 @@
                   - UCR-DXc1voovS8nhAvccRZhg # Jeff Geerling
                   - UCHnyfMqiRRG1u-2MsSQLbXA # Veritasium
 
-            - type: group
-              widgets:
-                  - type: reddit
-                    subreddit: hacking
-                    show-thumbnails: true
-                  - type: reddit
-                    subreddit: cybersecurity
-                    show-thumbnails: true
-                  - type: reddit
-                    subreddit: technology
-                    show-thumbnails: true
-                  - type: reddit
-                    subreddit: selfhosted
-                    show-thumbnails: true
+            # - type: group
+            #   widgets:
+            #       - type: reddit
+            #         subreddit: hacking
+            #         show-thumbnails: true
+            #       - type: reddit
+            #         subreddit: cybersecurity
+            #         show-thumbnails: true
+            #       - type: reddit
+            #         subreddit: technology
+            #         show-thumbnails: true
+            #       - type: reddit
+            #         subreddit: selfhosted
+            #         show-thumbnails: true
 
       - size: small
         widgets:
