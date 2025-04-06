@@ -37,7 +37,7 @@
                   - url: https://darkwebinformer.com/rss/
                     title: Dark Web Informer
                     limit: 4
-                  - url: https://isc.sans.edu/rssfeed_full.xml
+                  - url: https://isc.sans.edu/rssfeed.xml
                     title: SANS Internet Storm Center
                     limit: 4
                   - url: https://www.schneier.com/feed/atom/
